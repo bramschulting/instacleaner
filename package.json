@@ -1,0 +1,18 @@
+{
+  "name": "instacleaner",
+  "version": "1.0.0",
+  "description": "Automatically remove all Instaper bookmarks that have been in the Home folder for over a month.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bram Schulting",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "instapaper": "^1.0.0",
+    "moment": "^2.10.6"
+  }
+}
