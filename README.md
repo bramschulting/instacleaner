@@ -14,16 +14,16 @@ Of course there are some exceptions. I have two separate folders: longreads and 
 2. Create a `config.js` file
 
     ```
-export default {
-    instapaper: {
-    key: '[KEY]',
-    secret: '[SECRET]',
-    username: '[USERNAME]',
-    password: '[PASSWORD]'
+    export default {
+      instapaper: {
+        key: '[KEY]',
+        secret: '[SECRET]',
+        username: '[USERNAME]',
+        password: '[PASSWORD]'
+      }
     }
-}
     ```
 
 3. Run `node index.js`
 
-Optionally you could wrap the whole thing inside a [node-cron](https://github.com/ncb000gt/node-cron) to automatically clean your list every day/week/month it.
+Optionally you could wrap the whole thing inside a [node-cron](https://github.com/ncb000gt/node-cron) to automatically clean your list every day/week/month.
